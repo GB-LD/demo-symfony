@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	{# {{dump(page)}} #}
+
+	<div class="wrapper h-screen w-screen bg-neutral-200 grid">
+		<div class="container place-self-center w-1/2 h-auto p-8 md:h-1/2 md:w-3/4 bg-white rounded-md shadow-xl">
+			<ul class="h-full w-full flex flex-col md:flex-row justify-around items-center">
+				{% for item in page.items %}
+					<li class="m-4 flex flex-wrap">
+						<img src="{{item.icon.url}}" class="basis-full mb-4">
+						<a href="{{item.block_link.url}}" style="color:{{item.text_color}}" class="basis-full text-center hover:scale-125">{{item.text[0].text}}</a>				
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+
+{% endblock %}

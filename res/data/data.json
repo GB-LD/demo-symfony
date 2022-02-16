@@ -1,0 +1,78 @@
+{
+  "primary": {
+    "anchor": "bloc-section"
+  },
+  "items": [
+    {
+      "icon": {
+        "dimensions": {
+          "width": 190,
+          "height": 190
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://onateratest.cdn.prismic.io/onateratest/8a7d266f-bfe6-4adb-8ddc-1ac5a1ca7038_Picto_Cheveux.svg"
+      },
+      "block_link": {
+        "link_type": "Web",
+        "url": "https://www.onatera.com"
+      },
+      "text_color": "#b36e6e",
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Icone 1",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "icon": {
+        "dimensions": {
+          "width": 190,
+          "height": 190
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://onateratest.cdn.prismic.io/onateratest/ec2d31c3-fb09-43f1-99cc-5d8d64538b92_Picto_Sommeil.svg"
+      },
+      "block_link": {
+        "link_type": "Web",
+        "url": "https://www.onatera.com"
+      },
+      "text_color": "#5038b1",
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Icone 2",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "icon": {
+        "dimensions": {
+          "width": 190,
+          "height": 190
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://onateratest.cdn.prismic.io/onateratest/26036e45-a117-49cf-882e-446c060bb39f_Picto_Vitalite.svg"
+      },
+      "block_link": {
+        "link_type": "Web",
+        "url": "https://www.onatera.com"
+      },
+      "text_color": "#eb2222",
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Icone 3",
+          "spans": []
+        }
+      ]
+    }
+  ],
+  "slice_type": "section_icon_list",
+  "slice_label": null
+}
